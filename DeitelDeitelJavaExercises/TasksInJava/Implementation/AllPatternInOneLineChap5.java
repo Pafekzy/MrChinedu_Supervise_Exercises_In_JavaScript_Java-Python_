@@ -1,10 +1,9 @@
 public class AllPatternInOneLineChap5 {
     public static void main (String[] args) {
 
-	int fixedNum1 = 11;
-	int fixedNum2 = 10;
+	int fixedNum1 = 11;	
 	int fixedNum3 = 1;
-	int fixedNum4 = 0;
+	 
 
 	
 	for (int outerCount = 10; outerCount >= 1 ; outerCount--){
@@ -33,12 +32,6 @@ public class AllPatternInOneLineChap5 {
 	    for (int innerSpaceCount7 = 1; innerSpaceCount7 <= (fixedNum1 - outerCount); innerSpaceCount7++ ){ 
 		System.out.print("* ");
 	    }
-
-
-
-
-
-
 
 	    System.out.println();
 	}
