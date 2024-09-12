@@ -2,7 +2,7 @@ public class AllPatternInOneLineChap5 {
     public static void main (String[] args) {
 
 	int fixedNum1 = 11;	
-	int fixedNum3 = 1;
+	int fixedNum2 = 1;
 	 
 
 	
@@ -14,7 +14,7 @@ public class AllPatternInOneLineChap5 {
 	    for (int innerSpaceCount2 = 1; innerSpaceCount2 <= outerCount; innerSpaceCount2++ ){ 
 		System.out.print("  ");
 	    }
-	    for (int innerCount3 = 1; innerCount3 <=  ((outerCount+1) - fixedNum3); innerCount3++ ){ 
+	    for (int innerCount3 = 1; innerCount3 <=  ((outerCount+1) - fixedNum2); innerCount3++ ){ 
 		System.out.print("* ");
 	    }
 	    for (int innerSpaceCount4 = 1; innerSpaceCount4 <= (fixedNum1 - outerCount); innerSpaceCount4++ ){ 
@@ -26,7 +26,7 @@ public class AllPatternInOneLineChap5 {
 	    for (int innerSpaceCount6 = 1; innerSpaceCount6 <= outerCount; innerSpaceCount6++ ){ 
 		System.out.print("* ");
  	    }
-	    for (int innerSpaceCount6 = 1; innerSpaceCount6 <=  ((outerCount+1) - fixedNum3); innerSpaceCount6++ ){ 
+	    for (int innerSpaceCount6 = 1; innerSpaceCount6 <=  ((outerCount+1) - fixedNum2); innerSpaceCount6++ ){ 
 		System.out.print("  ");
 	    }
 	    for (int innerSpaceCount7 = 1; innerSpaceCount7 <= (fixedNum1 - outerCount); innerSpaceCount7++ ){ 
